@@ -44,14 +44,14 @@ will take raw, paired end sequencing files, and do the following:
     absolute file paths for R1 and R2 reads, an easy-to-read sample ID,
     a units column for replicates, and a column for sample ID, as such:
 
-| index  | lib        | fq1                         | fq2                         | sample | unit | fwc_withrep     |
-|:-------|:-----------|:----------------------------|:----------------------------|:-------|-----:|:----------------|
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S001   |    1 | FP059           |
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S002   |    1 | FP158           |
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S003   |    1 | FP206           |
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S004   |    1 | FP073K018F1rep1 |
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S005   |    1 | FP127rep1       |
-| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S006   |    1 | FP200BigGuyrep1 |
+| index  | lib        | fq1                         | fq2                         | sample | unit |
+|:-------|:-----------|:----------------------------|:----------------------------|:-------|-----:|
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S001   |    1 |
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S002   |    1 |
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S003   |    1 |
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S004   |    1 |
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S005   |    1 |
+| ATCACG | idx1concat | data/raw/idx1concat_1.fq.gz | data/raw/idx1concat_2.fq.gz | S006   |    1 |
 
 # Implementing the pipeline
 
