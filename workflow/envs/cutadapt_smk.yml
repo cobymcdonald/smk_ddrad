@@ -1,0 +1,8 @@
+name: cutadapt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - cutadapt
+prefix: /Users/coby/mambaforge/envs/cutadapt

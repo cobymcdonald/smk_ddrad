@@ -1,0 +1,10 @@
+name: bwa
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bwa
+  - bwa-mem2
+  - samtools
+prefix: /Users/coby/mambaforge/envs/bwa

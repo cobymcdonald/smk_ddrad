@@ -1,0 +1,8 @@
+name: stacks2.65
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - stacks=2.65=hdcf5f25_0
+prefix: /home/camcd/miniconda3/envs/stacks2.65
